@@ -18,20 +18,125 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="d-flex justify-content-between align-items-center px-5 py-3">
+    <header
+      class="navbar bg-test d-flex justify-content-between align-items-center px-7 py-1"
+    >
       <a href="#">
-        <img class="logo" src="img/logo.png" alt="Compony logo" />
+        <img class="navbar__logo" src="img/logo.png" alt="Compony logo" />
       </a>
       <div>
         <nav>
-          <ul class="d-flex g-5 h2">
-            <li>About</li>
-            <li>Menu</li>
-            <li>Nesugalvojau</li>
-            <li>Contact</li>
+          <ul class="d-flex g-4 h3 text-black">
+            <li><a class="navbar__link" href="#">About</a></li>
+            <li><a class="navbar__link" href="#">Order</a></li>
+            <li><a class="navbar__link" href="#">Menu</a></li>
+            <li><a class="navbar__link" href="#">Reviews</a></li>
+            <li><a class="navbar__link" href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    <section class="section-hero">
+      <div class="container hero">
+        <h1 class="text-center my-4 h1 hero__header">
+          <span class="hero__left">The Most Delicious</span>
+          <span class="hero__right">Food In Your City</span>
+        </h1>
+        <div
+          class="d-flex justify-content-center align-items-center h3 text-center"
+        >
+          <p class="mr-4 h3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+            quia reiciendis magnam, veritatis ullam ut! Excepturi iusto magni
+            deserunt harum, voluptate vitae minus suscipit nulla, ea minima
+            sequi expedita officiis!
+          </p>
+          <img class="hero__img" src="img/hero-img.png" alt="food photo" />
+          <p class="ml-4 align-self-end h3">
+            Ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugit
+            perferendis iusto repellendus consectetur magni nulla fuga ut
+            molestias similique dolor, hic voluptatum! Provident iure maxime
+            alias explicabo dolor enim.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="gallery container d-grid grid-cols-5 g-3">
+        <figure class="gallery__img gallery__img--1">
+          <img src="img/gallery1.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--2">
+          <img src="img/gallery2.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--3">
+          <img src="img/gallery3.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--4">
+          <img src="img/gallery4.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--5">
+          <img src="img/gallery5.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--6">
+          <img src="img/gallery6.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--7">
+          <img src="img/gallery7.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--8">
+          <img src="img/gallery8.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--9">
+          <img src="img/gallery9.png" alt="Photo of beatifully arranged food" />
+        </figure>
+        <figure class="gallery__img gallery__img--10">
+          <img
+            src="img/gallery10.png"
+            alt="Photo of beatifully arranged food"
+          />
+        </figure>
+      </div>
+    </section>
+    <section class="mt-5 py-2 testimonials-section">
+      <div class="container">
+        <p class="h3 text-test">Testimonials</p>
+        <h2 class="text-center h2 my-4">Once you try it, you can't stop!</h2>
+        <div class="d-grid grid-cols-2 g-4 justify-content-center">
+          <div class="d-grid g-3">
+            <img class="border-50" src="img/ben.jpg" alt="Customer photo" />
+            <p class="h4">
+              The food is crazy good. I chooses the right meals for me every
+              time. It's amazing not to worry about food anymore!
+            </p>
+            <span class="h5">— Ben Hadley</span>
+          </div>
+          <div class="d-grid g-3">
+            <img class="border-50" src="img/dave.jpg" alt="Customer photo" />
+            <p class="h4">
+              Inexpensive, healthy and great-tasting meals, without even having
+              to wait long! It feels truly magical.
+            </p>
+            <span class="h5">— Dave Bryson</span>
+          </div>
+          <div class="d-grid g-3">
+            <img class="border-50" src="img/hannah.jpg" alt="Customer photo" />
+            <p class="h4">
+              I go to BonTon with all family, and it frees up so much time!
+              Plus, everything is organic and have vegan food.
+            </p>
+            <span class="h5">— Hannah Smith</span>
+          </div>
+          <div class="d-grid g-3">
+            <img class="border-50" src="img/steve.jpg" alt="Customer photo" />
+            <p class="h4">
+              It’s amazingly delicious. I couldn't live without my BonTon meals
+              now!
+            </p>
+            <span class="h5">— Steve Miller</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

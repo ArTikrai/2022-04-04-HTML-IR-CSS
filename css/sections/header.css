@@ -1,5 +1,33 @@
-.logo {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.navbar__link:link,
+.navbar__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+
+  transition: all 0.5s;
+}
+
+.navbar__link:hover,
+.navbar__link:active {
+  color: var(--color-gray-hover);
+}
+
+.navbar__logo {
   border-radius: 10rem;
-  width: 15rem;
-  height: 14rem;
+  width: 8rem;
+  height: 7rem;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }

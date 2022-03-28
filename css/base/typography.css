@@ -65,6 +65,9 @@ h6 {
 .text-primary {
   color: var(--color-primary);
 }
+.text-test {
+  color: var(--color-test);
+}
 
 .text-overflow {
   overflow: hidden;

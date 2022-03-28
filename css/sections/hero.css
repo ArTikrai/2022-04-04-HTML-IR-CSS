@@ -1,0 +1,25 @@
+.section-hero {
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+}
+
+.hero__header {
+  transform: rotate(5deg);
+}
+
+.hero__img {
+  width: 80rem;
+  height: 50rem;
+  border-radius: 2rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.5);
+}
+
+.hero__left {
+  background-color: rgba(255, 0, 0, 0.671);
+  border-radius: 5px;
+}
+
+.hero__right {
+  background-color: var(--color-test);
+  border-radius: 5px;
+}

@@ -10,6 +10,8 @@
 @import "./utilities/flex.css";
 @import "./utilities/grid.css";
 @import "./utilities/backgrounds.css";
+@import "./utilities/hover.css";
+@import "./utilities/border-radius.css";
 
 /* Partials */
 @import "./partials/navbar.css";
@@ -22,5 +24,8 @@
 
 /* Sections */
 @import "./sections/header.css";
+@import "./sections/hero.css";
+@import "./sections/gallery.css";
+@import "./sections/testimonials.css";
 @import "./sections/main-section.css";
 @import "./sections/courses-section.css";

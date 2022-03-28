@@ -9,3 +9,6 @@
 .bg-primary {
   background-color: var(--color-primary);
 }
+.bg-test {
+  background-color: var(--color-test);
+}

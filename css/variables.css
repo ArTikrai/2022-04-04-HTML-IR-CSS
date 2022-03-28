@@ -1,19 +1,22 @@
 :root {
   --color-white: #fff;
   --color-white-hover: #ddd;
+  --color-gray-hover: #dee2e6;
   --color-black: #000;
   --color-black-tranparent: #00000086;
   --color-black-hover: #222;
   --color-primary: #009e5a;
   --color-primary-light: #2bcc86;
   --color-primary-hover: #018b4f;
+  --color-test: #fab005;
 
   --spacing-0: 0;
-  --spacing-1: 0.5rem;
-  --spacing-2: 1rem;
-  --spacing-3: 2rem;
-  --spacing-4: 3rem;
-  --spacing-5: 5rem;
+  --spacing-1: 1rem;
+  --spacing-2: 2rem;
+  --spacing-3: 3rem;
+  --spacing-4: 5rem;
+  --spacing-5: 20rem;
+  --spacing-7: 12rem;
 
   --breakpoint-sm: 580px;
   --breakpoint-md: 800px;
@@ -24,11 +27,11 @@
 
   --font-general: "Inter", sans-serif;
 
-  --h1: 3rem;
-  --h2: 2.5rem;
-  --h3: 1.8rem;
-  --h4: 1.55rem;
-  --h5: 1.3rem;
+  --h1: 4.5rem;
+  --h2: 3.5rem;
+  --h3: 2.5rem;
+  --h4: 2rem;
+  --h5: 1.5rem;
   --h6: 1rem;
 
   --navbar-height: 56px;
