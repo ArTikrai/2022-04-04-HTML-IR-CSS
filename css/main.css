@@ -12,6 +12,7 @@
 @import "./utilities/backgrounds.css";
 @import "./utilities/hover.css";
 @import "./utilities/border-radius.css";
+@import "./utilities/floats.css";
 
 /* Partials */
 @import "./partials/navbar.css";
@@ -29,3 +30,4 @@
 @import "./sections/testimonials.css";
 @import "./sections/main-section.css";
 @import "./sections/courses-section.css";
+@import "./sections/menu.css";

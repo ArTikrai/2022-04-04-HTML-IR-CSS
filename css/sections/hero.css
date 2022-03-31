@@ -20,6 +20,6 @@
 }
 
 .hero__right {
-  background-color: var(--color-test);
+  background-color: var(--color-primary);
   border-radius: 5px;
 }

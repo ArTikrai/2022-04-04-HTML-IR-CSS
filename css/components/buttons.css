@@ -1,0 +1,17 @@
+.btn {
+  text-decoration: none;
+  padding: 2.5rem 3.5rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn__color-primary {
+  background-color: var(--color-primary);
+  transition: all 0.5s;
+}
+
+.btn__color-primary:hover {
+  color: var(--color-white);
+  background-color: var(--color-green-hover);
+}

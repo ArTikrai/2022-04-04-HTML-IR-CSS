@@ -9,3 +9,41 @@
 .grid-cols-2 {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.y-self-end {
+  align-self: end;
+}
+
+/*  */
+.menu__container {
+  display: grid;
+  grid-template:
+    "sandos pizza-meatballs pizza" 350px
+    " pasta salads          pizza" 350px
+    " ends   ends       ends" 60px
+    / 1fr 1fr 1fr;
+}
+
+.menu__container-sandos {
+  grid-area: sandos;
+}
+
+.menu__container-pasta {
+  grid-area: pasta;
+}
+
+.menu__container-pizza--meatballs {
+  grid-area: pizza-meatballs;
+}
+
+.menu__container-salads {
+  grid-area: salads;
+}
+
+.menu__container-pizza {
+  grid-area: pizza;
+}
+
+.menu__container-end {
+  grid-area: ends;
+}
