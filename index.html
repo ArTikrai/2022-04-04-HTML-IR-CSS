@@ -8,6 +8,7 @@
       content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,11 +16,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Document</title>
+    <title>BonTon &mdash; Most Delicious Food</title>
   </head>
   <body>
     <header
-      class="navbar bg-test d-flex justify-content-between align-items-center px-7 py-1"
+      class="navbar bg-primary d-flex justify-content-between align-items-center px-7 py-1"
     >
       <a href="#">
         <img class="navbar__logo" src="img/logo.png" alt="Compony logo" />
@@ -27,17 +28,17 @@
       <div>
         <nav>
           <ul class="d-flex g-4 h3 text-black">
-            <li><a class="navbar__link" href="#">About</a></li>
-            <li><a class="navbar__link" href="#">Order</a></li>
+            <li><a class="navbar__link" href="#about">About</a></li>
+            <li><a class="navbar__link" href="#reviews">Reviews</a></li>
             <li><a class="navbar__link" href="#menu">Menu</a></li>
-            <li><a class="navbar__link" href="#">Reviews</a></li>
-            <li><a class="navbar__link" href="#">Contact</a></li>
+            <li><a class="navbar__link" href="#order">Order</a></li>
+            <li><a class="navbar__link" href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="section-hero">
-      <div class="container hero">
+    <section class="section-hero pb-6">
+      <div class="container hero text-black">
         <h1 class="text-center my-4 h1 hero__header">
           <span class="hero__left">The Most Delicious</span>
           <span class="hero__right">Food In Your City</span>
@@ -98,16 +99,35 @@
         </figure>
       </div>
     </section>
+    <section class="media__icons mt-6 py-3 testimonials-section">
+      <div class="container">
+<div class="d-flex justify-content-between align-items-center">
+  <div class="media__icons-text  ">
+    <h2 class="h2 mb-2">Social Media</h2>
+    <p class="h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+      Quibusdam necessitatibus ut, rem illum.</p>
+  </div>
+  <div class="media__icons-svg ">
+    <img src="img/icons1.svg" alt="icons">
+    <img src="img/icons2.svg" alt="icons">
+    <img src="img/icons3.svg" alt="icons">
+    <img src="img/icons4.svg" alt="icons">
+    <img src="img/icons5.svg" alt="icons">
+  </div>
+</div>
+      </div>
+    </section>
 
-<section class="about my-5">
-  <div class="container">
-    <h2 class="h3 text-center mt-5 mb-3">About Us</h2>
+<section id="about" class="about py-6 ">
+  
+  <div class="container about__content text-white">
+    <h2 class="h2 text-center  mb-3">About Us</h2>
     <div class="d-flex flex-column align-items-center text-center h4 g-3">
       <div>
         <p >IN 2012, A BRAVE TEAM BLESSED PORTLAND WITH A BEAUTIFUL GIFT: DELICIOUS MEATBALLS. BETWEEN TWO PIECES OF CRISP, BUTTERY BREAD OR OVER PASTA, AND SLATHERED IN SAUCE, THE BONTON TEAM KNEW IT WAS THE SAUCY COMFORT FOOD THE CITY NEEDED. OTHERS HAVE SINCE JOINED THE MEATBALL GAME, BUT NONE RISE TO THE GLORY OF THE ORIGINAL—THE MEATBALLS THAT RULE THEM ALL. </p>
       </div>
       <div>
-        <img class="border-50" src="img/logo.png" alt="logo">
+        <img class="border-50 about__content" src="img/logo.png" alt="logo">
       </div>
       <div>
         <p >NOW, THEY’VE DOUBLED DOWN TO BRING PORTLAND A DREAM DUO: PIZZA AND MEATBALLS. DEEMED “NEIGHBORHOOD STYLE,” THIS CHEESY, TANGY COMBINATION IS THE SLICE TO RUIN THE REST. 
@@ -119,7 +139,7 @@
 
 
 
-    <section class="mt-5 py-2 testimonials-section">
+    <section id="reviews" class="py-3 testimonials-section">
       <div class="container">
         <p class="h3 text-test">Testimonials</p>
         <h3 class="text-center h2 my-4">Once you try it, you can't stop!</h3>
@@ -159,12 +179,13 @@
         </div>
       </div>
     </section>
-    <section id="menu" class="menu my-5">
-      <div class="container">
+
+    <section id="menu" class="menu py-5">
+      <div class="container menu__content">
      
-      <div class="my-4 h1 text-center">
+      <div class=" my-4 h1 text-center">
         <img class="border-50" src="img/logo.png" alt="logo">
-      <h4 >MENU</h4>
+      <h4 class="text-white">MENU</h4>
     </div>
       <div class="menu__container  g-4">
        
@@ -337,7 +358,7 @@
     </div>
     </section>
 
-    <section class="order my-5">
+    <section id="order" class="order my-5">
       <div class="container">
 <div class="d-flex flex-column align-items-center text-center justify-content-center g-2 text-secondary-light">
   <h5 class="h1">WHANT <br> A SLICE?</h5>
@@ -353,6 +374,86 @@
       </div>
     </section>
 
-    <footer></footer>
+    <footer id="contact" class="footer mt-6 py-4">
+      <div class="container footer-grid-cols-5 g-2  h5">
+        <div class="logo-col d-flex  flex-column g-3">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="BonTon logo" src="img/logo.png" />
+          </a>
+          <ul class="social-links d-flex  g-3">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="footer__social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="footer__social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="footer__social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2022</span> by BonTon, Inc All
+            rights reserved.
+          </p>
+        </div>
+        <div class="address-col d-flex flex-column g-3 j">
+          <p class="footer-heading h4">Contact us</p>
+          <address class="contacts d-flex flex-column g-2">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@bonton.com"
+                >hello@bonton.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col d-flex flex-column g-3">
+          <p class="footer-heading h4">Account</p>
+          <ul class="footer-nav contacts d-flex flex-column g-2">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col d-flex flex-column g-3">
+          <p class="footer-heading h4">Company</p>
+          <ul class="footer-nav contacts d-flex flex-column g-2">
+            <li><a class="footer-link" href="#">About BonTon </a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li>
+              <a class="footer-link" href="#">Cooking partners</a>
+            </li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col d-flex flex-column g-3">
+          <p class="footer-heading h4">Resources</p>
+          <ul class="footer-nav contacts d-flex flex-column g-2">
+            <li><a class="footer-link" href="#">Recipe directory</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
   </body>
 </html>
