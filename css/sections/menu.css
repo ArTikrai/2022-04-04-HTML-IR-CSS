@@ -41,3 +41,33 @@
 .menu__container-list li:not(:last-child) {
   margin-bottom: 20px;
 }
+
+@media (max-width: 85em) {
+  .menu__container {
+    display: grid;
+    grid-template:
+      " sandos sandos pizza-meatballs  pizza-meatballs " 300px
+      " pasta pasta salads salads   " 350px
+      " . pizza pizza ." 1fr
+      "ends ends ends ends " 80px
+      / 1fr 1fr 1fr 1fr;
+  }
+
+  .menu__container-end {
+    text-align: center;
+  }
+}
+
+@media (max-width: 60em) {
+  .menu__container {
+    gap: 10px;
+    grid-template:
+      " sandos  " 1fr
+      " pizza-meatballs      " 1fr
+      "pasta" 1fr
+      "  salads " 1fr
+      "pizza " 1fr
+      "ends  " 1fr
+      / 1fr;
+  }
+}

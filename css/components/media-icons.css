@@ -1,3 +1,21 @@
 .media__icons-svg img:not(:last-child) {
   margin-right: var(--spacing-5);
 }
+
+@media (max-width: 80em) {
+  .media__icons--content {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+  .media__icons-svg {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 41em) {
+  .media__icons-svg img:not(:last-child) {
+    margin-right: var(--spacing-3);
+  }
+}

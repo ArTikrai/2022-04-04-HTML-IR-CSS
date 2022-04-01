@@ -25,3 +25,9 @@ body {
   padding: 0;
   list-style: none;
 }
+
+@media (max-width: 38em) {
+  html {
+    font-size: 56.25%;
+  }
+}

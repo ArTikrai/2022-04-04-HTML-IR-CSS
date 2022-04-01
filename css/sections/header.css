@@ -32,3 +32,32 @@
   outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
+
+@media (max-width: 125em) {
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 57em) {
+  .navbar {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .navbar-links {
+    gap: var(--spacing-2);
+  }
+}
+
+@media (max-width: 41em) {
+  .navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .navbar-links {
+    font-size: var(--h4);
+  }
+  .navbar-links {
+    gap: var(--spacing-1);
+  }
+}
