@@ -1,6 +1,26 @@
 .section-hero {
-  margin-top: 20rem;
+  padding-top: 20rem;
   margin-bottom: 10rem;
+  background-image: url(../../img/background-img4.png);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.section-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e7e2e2;
+  opacity: 0.73;
+}
+.hero {
+  position: relative;
+  font-weight: bold;
+  opacity: 1;
 }
 
 .hero__header {

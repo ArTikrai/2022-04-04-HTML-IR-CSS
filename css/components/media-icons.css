@@ -1,0 +1,3 @@
+.media__icons-svg img:not(:last-child) {
+  margin-right: var(--spacing-5);
+}

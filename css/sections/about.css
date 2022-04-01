@@ -1,0 +1,23 @@
+.about {
+  background-image: url(../../img/background-img.png);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+  opacity: 0.43;
+}
+
+.about__content {
+  position: relative;
+  font-weight: bold;
+  opacity: 1;
+}

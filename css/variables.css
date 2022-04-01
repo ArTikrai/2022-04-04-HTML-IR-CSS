@@ -15,8 +15,9 @@
   --spacing-2: 2rem;
   --spacing-3: 3rem;
   --spacing-4: 5rem;
-  --spacing-5: 20rem;
-  --spacing-7: 12rem;
+  --spacing-5: 10rem;
+  --spacing-6: 20rem;
+  --spacing-7: 25rem;
 
   --breakpoint-sm: 580px;
   --breakpoint-md: 800px;

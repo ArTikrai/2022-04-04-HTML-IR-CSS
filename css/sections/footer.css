@@ -1,0 +1,32 @@
+.footer {
+  border-top: 3px solid black;
+}
+.footer-link:link,
+.footer-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+
+  transition: all 0.5s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--color-gray-hover);
+}
+
+.footer-logo .logo {
+  object-fit: cover;
+  border-radius: 10rem;
+  width: 11rem;
+  height: 10rem;
+}
+
+.footer__social-icon {
+  font-size: 4rem;
+}
+
+.footer-grid-cols-5 {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
