@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.2;
   font-weight: 400;
   color: #555;
@@ -31,3 +31,9 @@ body {
     font-size: 56.25%;
   }
 }
+
+@media (max-width: 30em) {
+  html {
+    
+    font-size: 50%;
+  }

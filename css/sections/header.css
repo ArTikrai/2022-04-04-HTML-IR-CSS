@@ -61,3 +61,10 @@
     gap: var(--spacing-1);
   }
 }
+
+@media (max-width: 30em) {
+  .navbar-links {
+    font-size: var(--navbar-h7);
+    font-weight: 500;
+  }
+}
